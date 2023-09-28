@@ -14,5 +14,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  // provides a set of 'prose' classes that you can use to add typography to any vanilla html
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
+
+// run build process with npm run dev
